@@ -73,3 +73,21 @@ OncoKB가 어떤 지식 베이스인지, 어떤 패널·데이터 소스를 통�
 - [MSK-IMPACT](https://www.mskcc.org/msk-impact)
 - Vogelstein et al., *Cancer Genome Landscapes*, Science (2013) — [DOI](https://www.science.org/doi/10.1126/science.1235122)
 - [COSMIC Cancer Gene Census](https://cancer.sanger.ac.uk/cosmic/login)
+
+---
+
+## AI-Assisted Development
+
+이 프로젝트의 구현(코드 작성, 리팩터링, 디버깅, 문서화)에는 Claude Code의 도움을 받았습니다. 대시보드 내에서 리포트를 생성하는 Gemini API 연동은 최종 사용자가 유전자를 조회할 때 실행되는 애플리케이션 기능이며, 위 개발 지원과는 별개입니다.
+연구 질문 설정, 생물학적 해석, 검증 전략, 과학적 한계에 대한 판단은 프로젝트 저자가 직접 검토하고 결정했습니다.
+
+---
+
+## Genomics Portfolio Series
+
+이 저장소는 4부작 유전체 포트폴리오 중 하나입니다.
+
+01. **Family Genome × KEGG Integration** — [kegg-family-genome-analysis](https://github.com/hannahyu-source/kegg-family-genome-analysis)
+02. **Genomic Variant Machine Learning** — [genomic-variant-ML-analysis](https://github.com/hannahyu-source/genomic-variant-ML-analysis)
+03. **Family-of-Five Genome Dataset** — [family-genome-analysis](https://github.com/hannahyu-source/family-genome-analysis)
+04. **OncoKB Cancer Genomics Analysis** — [oncoKB-cancer-genomics-analysis](https://github.com/hannahyu-source/oncoKB-cancer-genomics-analysis) ← 현재 저장소
